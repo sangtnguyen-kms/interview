@@ -21,3 +21,17 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 
 - 0 <= s.length <= 5 * 10^4
 - s consists of English letters, digits, symbols and spaces.
+
+## Test case
+```py
+1. s = "abcabcbb" -> Expected output: 3
+2. s = "bbbbb" -> Expected output: 1
+3. s = "pwwkew" -> Expected output: 3
+4. s = "aab" -> Expected output: 2
+5. s = "dvdf" -> Expected output: 3
+6. s = " "  -> Expected output: 1
+7. s = "abba" -> Expected output: 2
+8. s = "a" -> Expected output: 1
+9. s = "" -> Expected output: 0
+10. s = "abcdefghijklmnopqrstuvwxyz" -> Expected output: 26
+```
